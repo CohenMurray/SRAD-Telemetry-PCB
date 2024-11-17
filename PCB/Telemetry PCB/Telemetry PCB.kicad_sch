@@ -7186,12 +7186,6 @@
 		(uuid "b11b7479-3018-40b9-9b18-533d8b487a7d")
 	)
 	(junction
-		(at 142.24 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b766d60a-4e6d-45be-92dc-2c5acfd53b6a")
-	)
-	(junction
 		(at 168.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7515,16 +7509,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c123bd-9a84-4090-9732-b41be140b686")
-	)
-	(wire
-		(pts
 			(xy 114.3 22.86) (xy 120.65 22.86)
 		)
 		(stroke
@@ -7705,16 +7689,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 125.73) (xy 142.24 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf19b7e-217e-48be-976f-bb82335e99b7")
-	)
-	(wire
-		(pts
 			(xy 265.43 54.61) (xy 265.43 59.69)
 		)
 		(stroke
@@ -7865,6 +7839,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 121.92) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ab07be-1eef-4b08-88b8-5dc3b0b35299")
+	)
+	(wire
+		(pts
 			(xy 43.18 111.76) (xy 35.56 111.76)
 		)
 		(stroke
@@ -8002,6 +7986,16 @@
 			(type default)
 		)
 		(uuid "a9d6402b-0b53-465d-a4c7-80adea6ed685")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3e0d63-0351-44ee-a8f7-73034f6d7a4f")
 	)
 	(wire
 		(pts
@@ -10321,7 +10315,7 @@
 	(symbol
 		(lib_name "GND_16")
 		(lib_id "power:GND")
-		(at 149.86 124.46 90)
+		(at 149.86 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10330,7 +10324,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a4d79ca-59df-46d2-a92a-2fa62b247f89")
 		(property "Reference" "#PWR041"
-			(at 156.21 124.46 0)
+			(at 156.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 124.4599 90)
+			(at 153.67 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 124.46 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 124.46 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +10360,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 124.46 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,6 +11131,73 @@
 			(project ""
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49435876-25be-4683-bb3d-b2ca14fc0564")
+		(property "Reference" "R9"
+			(at 146.05 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 146.05 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 146.05 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a775b5f1-df45-4218-b078-7bc340b2e15e")
+		)
+		(pin "1"
+			(uuid "2a9e7f02-e37e-47e7-9d90-36e8bde8687c")
+		)
+		(instances
+			(project "Telemetry PCB"
+				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13745,7 +13806,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 124.46 90)
+		(at 146.05 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13753,7 +13814,7 @@
 		(dnp no)
 		(uuid "a4eb9104-f503-454e-8a34-ff938c0461d8")
 		(property "Reference" "R2"
-			(at 146.05 122.428 90)
+			(at 146.05 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13822,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 146.05 126.746 90)
+			(at 146.05 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13769,7 +13830,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 146.05 126.238 90)
+			(at 146.05 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13778,7 +13839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 124.46 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,7 +13848,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 124.46 0)
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,6 +15635,74 @@
 			(project ""
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_16")
+		(lib_id "power:GND")
+		(at 149.86 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b0961a-53d8-4d10-a1ed-ad441b3fd71c")
+		(property "Reference" "#PWR047"
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d86ac65-1ce3-435d-95d7-bc88b6429ea5")
+		)
+		(instances
+			(project "Telemetry PCB"
+				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
