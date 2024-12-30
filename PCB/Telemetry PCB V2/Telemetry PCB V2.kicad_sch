@@ -7405,7 +7405,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 38.1 93.98)
+			(xy 49.53 76.2) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7855,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 96.52) (xy 35.56 96.52)
+			(xy 49.53 73.66) (xy 35.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8195,7 +8195,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 96.52) (xy 35.56 93.98)
+			(xy 35.56 73.66) (xy 35.56 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8566,22 +8566,22 @@
 	)
 	(global_label "USB Dp"
 		(shape input)
-		(at 38.1 86.36 90)
+		(at 38.1 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2001140f-7a17-4651-a927-c78434b9b9c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 76.1782 90)
+			(at 38.1 94.0018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9358,22 +9358,22 @@
 	)
 	(global_label "USB Dn"
 		(shape input)
-		(at 35.56 86.36 90)
+		(at 35.56 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ea385fba-87f1-4c05-b220-c2667de315b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 76.1782 90)
+			(at 35.56 94.0018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12618,8 +12618,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 90.17 0)
-		(mirror x)
+		(at 38.1 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12627,7 +12626,7 @@
 		(dnp no)
 		(uuid "74828ca0-e3fc-433c-a07e-bf5a864842c2")
 		(property "Reference" "R3"
-			(at 40.386 91.186 0)
+			(at 40.386 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12634,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 40.386 89.154 0)
+			(at 40.386 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12643,7 +12642,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 36.322 90.17 90)
+			(at 36.322 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,7 +12651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 90.17 0)
+			(at 38.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12660,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 90.17 0)
+			(at 38.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14869,8 +14868,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 90.17 0)
-		(mirror x)
+		(at 35.56 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14878,7 +14876,7 @@
 		(dnp no)
 		(uuid "d6426240-05bc-46a6-9437-9bd9ced91184")
 		(property "Reference" "R1"
-			(at 33.274 91.694 0)
+			(at 33.274 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14886,7 +14884,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 33.274 89.154 0)
+			(at 33.274 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14892,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 33.782 90.17 90)
+			(at 33.782 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 90.17 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +14910,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 90.17 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
