@@ -9138,7 +9138,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 82.55 93.98 0)
+		(at 82.55 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9148,7 +9148,7 @@
 		)
 		(uuid "a825dac7-44ff-4f27-ad38-77e4c8564d00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0147 93.98 0)
+			(at 88.0147 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9380,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 82.55 91.44 0)
+		(at 82.55 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9390,7 +9390,7 @@
 		)
 		(uuid "ec567ebd-ed10-4471-a19c-4fb625c77fbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7123 91.44 0)
+			(at 87.7123 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
