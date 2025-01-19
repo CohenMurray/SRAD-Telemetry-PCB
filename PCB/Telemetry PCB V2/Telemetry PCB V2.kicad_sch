@@ -7048,6 +7048,12 @@
 		(uuid "0b8a36de-8914-4549-be21-8da0e469e8c7")
 	)
 	(junction
+		(at 251.46 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a9b2ca-f317-4ae8-8795-bdd3eeb1f59a")
+	)
+	(junction
 		(at 259.08 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7090,10 +7096,10 @@
 		(uuid "41109390-365b-4d90-88ff-7511129990b3")
 	)
 	(junction
-		(at 265.43 46.99)
+		(at 64.77 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ec696a6-be42-4502-b591-94d3df960b68")
+		(uuid "4b7bdda6-f381-401f-82a6-880b0b3e3efc")
 	)
 	(junction
 		(at 269.24 73.66)
@@ -7186,6 +7192,12 @@
 		(uuid "b11b7479-3018-40b9-9b18-533d8b487a7d")
 	)
 	(junction
+		(at 265.43 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b669c82e-74c5-442d-a441-5a7aa9c0dc36")
+	)
+	(junction
 		(at 168.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7204,12 +7216,6 @@
 		(uuid "bfeec772-81d3-43f4-8454-3c92168359de")
 	)
 	(junction
-		(at 64.77 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c38a25d5-2945-47bc-894f-d2eafa9e7c24")
-	)
-	(junction
 		(at 69.85 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7220,12 +7226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d83b89bc-3e7b-40c1-a976-098d95188ad3")
-	)
-	(junction
-		(at 251.46 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e28a4e45-2c35-457c-92fc-cfc255daa77f")
 	)
 	(junction
 		(at 34.29 60.96)
@@ -9483,7 +9483,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 73.152 23.876 90)
 			(effects
 				(font
@@ -9963,7 +9963,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 58.674 33.02 90)
 			(effects
 				(font
@@ -10306,7 +10306,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 75.946 33.02 90)
 			(effects
 				(font
@@ -14139,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 237.49 25.4 0)
 			(effects
 				(font
@@ -15217,7 +15217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 67.31 90)
+		(at 247.65 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15242,7 +15242,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 247.65 69.088 90)
+			(at 247.65 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15301,7 +15301,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 261.62 41.91 90)
 			(effects
 				(font
