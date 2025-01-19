@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Footprint" "PLZ5V1C_G3_H:CR_1C-G3&slash_H_VIS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7147de8b-85f0-417e-adb0-6703667eb00c")
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a7a2569-9bf9-4234-ae5f-375eb225ff79")
@@ -1344,7 +1344,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f512d2d7-c96d-4b31-96bb-aeb56c13ae6e")
@@ -1641,7 +1641,7 @@
 			(uuid "650d5cf7-5ea2-4e04-a771-a6c16742fcbe")
 		)
 		(fp_text user "*"
-			(at -1.8796 0 360)
+			(at -1.8796 0 0)
 			(layer "F.SilkS")
 			(uuid "00bade3d-82c2-4843-a2f8-8449e2719ad3")
 			(effects
@@ -1664,7 +1664,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -0.7493 0 360)
+			(at -0.7493 0 0)
 			(layer "F.Fab")
 			(uuid "561ba84a-075f-47f3-a2a6-f825acb12ed0")
 			(effects
@@ -13341,80 +13341,91 @@
 	)
 	(gr_circle
 		(center 185.4 110.95)
-		(end 179.4 110.95)
+		(end 182.15 110.95)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Cu")
-		(uuid "14cc51e2-526c-4b20-968e-0078489c2dde")
+		(uuid "124c4b94-51fb-4df6-b386-2210bfa508b5")
 	)
 	(gr_circle
 		(center 130.4 55.95)
-		(end 136.4 55.95)
+		(end 132.15 55.95)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Cu")
-		(uuid "2c590843-5bd0-4a56-a7c2-a70d70362d9e")
-	)
-	(gr_circle
-		(center 130.4 110.95)
-		(end 136.9 110.95)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "67067f3f-2389-4c8f-a711-396b13057474")
-	)
-	(gr_circle
-		(center 185.4 55.95)
-		(end 178.9 55.95)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "9b8d7525-63f3-4f55-ac6d-a6aa89db60ea")
-	)
-	(gr_circle
-		(center 130.4 110.95)
-		(end 136.4 110.95)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "a044f6b9-4c14-4ed1-88bb-c2ad25c8528c")
+		(uuid "20294aa3-abd5-42ae-b9de-83bad1b5c34f")
 	)
 	(gr_circle
 		(center 185.4 110.95)
-		(end 178.9 110.975)
+		(end 183.65 110.95)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Cu")
-		(uuid "a0e905fe-8bde-452f-b303-d0344b7a4598")
+		(uuid "24300b3e-ea94-46dc-989e-25d03d6b1891")
+	)
+	(gr_circle
+		(center 185.4 55.95)
+		(end 183.65 55.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "2d20995b-130c-443a-ad3c-ae15d92112be")
+	)
+	(gr_circle
+		(center 130.4 110.95)
+		(end 133.65 110.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "618be24b-6c28-4dfc-81dc-80ee6416cc69")
+	)
+	(gr_circle
+		(center 130.4 110.95)
+		(end 132.15 110.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "7147b758-05f7-4dc6-97f7-49edc1ef95dc")
+	)
+	(gr_circle
+		(center 185.4 55.95)
+		(end 182.15 55.95)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "de2dd89f-4e87-42cb-a951-d2ee33ad1d36")
 	)
 	(gr_circle
 		(center 130.4 55.95)
-		(end 136.9 55.925)
+		(end 133.65 55.96)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Cu")
-		(uuid "a7c08e74-0873-4d0b-a1fd-739cb95e2b41")
+		(uuid "ed676c00-801e-445e-8b7f-190b0b65f02e")
 	)
 	(gr_rect
 		(start 122.9 48.45)
@@ -13426,17 +13437,6 @@
 		(fill none)
 		(layer "F.Cu")
 		(uuid "edce23b2-43f2-4859-8af4-6fbae5c6e957")
-	)
-	(gr_circle
-		(center 185.4 55.95)
-		(end 179.4 55.95)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "fb4d4180-4f70-4625-8f80-095a7bd2e75e")
 	)
 	(segment
 		(start 152.8625 93.61)
