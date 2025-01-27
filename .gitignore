@@ -26,3 +26,4 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+/PCB/Telemetry PCB V2/Telemetry PCB V2-backups
