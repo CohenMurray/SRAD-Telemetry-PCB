@@ -9104,22 +9104,22 @@
 	)
 	(global_label "TX2"
 		(shape input)
-		(at 49.53 101.6 180)
+		(at 82.55 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "545680eb-bef8-4422-8504-6708a732a675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1582 101.6 0)
+			(at 88.9218 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9610,22 +9610,22 @@
 	)
 	(global_label "RX2"
 		(shape input)
-		(at 49.53 104.14 180)
+		(at 82.55 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c247f808-7cbb-4481-8fc9-fe9aba66b591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.8558 104.14 0)
+			(at 89.2242 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12341,7 +12341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm"
+		(property "Footprint" "PLZ5V1C_G3_H:C_Rect_L16.5mm_W8.7mm_P11.50mm_MKT"
 			(at 208.28 80.3148 0)
 			(effects
 				(font
