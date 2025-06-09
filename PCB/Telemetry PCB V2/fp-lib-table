@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PTS526_SM15_SMTR2_LFS")(type "KiCad")(uri "/home/cohen/Documents/github/SRAD-Telemetry-PCB/KiCad Libraries/PTS526_SM15_SMTR2_LFS.pretty")(options "")(descr ""))
+)
