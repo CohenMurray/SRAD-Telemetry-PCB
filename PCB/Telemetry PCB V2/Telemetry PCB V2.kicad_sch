@@ -9836,22 +9836,22 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 116.84 96.52 0)
+		(at 83.82 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a825dac7-44ff-4f27-ad38-77e4c8564d00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3047 96.52 0)
+			(at 78.3553 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10078,22 +10078,22 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 116.84 93.98 0)
+		(at 83.82 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ec567ebd-ed10-4471-a19c-4fb625c77fbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0023 93.98 0)
+			(at 78.6577 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10155,6 +10155,28 @@
 		(uuid "f237b26e-44af-4f55-a5ef-17fafc86f014")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.0195 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PC13"
+		(shape input)
+		(at 83.82 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f87bf043-b828-481b-b2ab-459dc656ace9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.8758 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,7 +11587,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 218.694 82.804 0)
 			(effects
 				(font
@@ -12583,7 +12605,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 201.168 40.132 90)
 			(effects
 				(font
@@ -14288,7 +14310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "BOOT"
 			(at 170.18 34.2899 90)
 			(effects
 				(font
@@ -14496,7 +14518,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+5v"
 			(at 265.938 39.878 0)
 			(effects
 				(font
@@ -15579,7 +15601,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "RESET"
 			(at 255.27 102.87 0)
 			(effects
 				(font
@@ -15923,7 +15945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3.3v"
 			(at 227.33 67.8179 0)
 			(effects
 				(font
