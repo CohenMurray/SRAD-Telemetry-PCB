@@ -12729,7 +12729,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 		(layer "F.Cu")
 		(uuid "e32c0f10-323c-4730-b9eb-b5044a1312bd")
-		(at 183.42 75.9 90)
+		(at 181.87 75.98 90)
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP1"
@@ -12898,7 +12898,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 		(layer "F.Cu")
 		(uuid "ec4372cc-70d7-49b5-ba73-2bd370ad9c4e")
-		(at 188.92 75.9 90)
+		(at 187.07 75.98 90)
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP2"
