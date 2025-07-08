@@ -2963,25 +2963,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 5.08 17.78 0)
+			(property "Reference" "IC1"
+				(at 0.254 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "E22-900M22S"
-				(at -12.7 17.78 0)
+			(property "Value" "E22-900M33S"
+				(at 3.81 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "E22-900M22S:E22-900M22S"
+			(property "Footprint" "E22-900M33S:XCVR_E22-900M33S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3284,6 +3284,24 @@
 				(pin power_in line
 					(at 0 15.24 270)
 					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
 					(name "VCC"
 						(effects
 							(font
@@ -3310,24 +3328,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10636,7 +10636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "E22-900M22S"
+		(property "Value" "E22-900M33S"
 			(at 118.11 148.59 0)
 			(effects
 				(font
@@ -10645,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "E22-900M30S:XCVR_E22-900M30S"
+		(property "Footprint" "E22-900M33S:XCVR_E22-900M33S"
 			(at 114.3 162.56 0)
 			(effects
 				(font
