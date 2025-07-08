@@ -14243,6 +14243,55 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "INCORRECT PINOUT\nDO NOT MANUFACTURE"
+		(at 135 56 0)
+		(layer "F.Fab")
+		(uuid "55dfdcb3-6d77-4746-9fe1-6b50f64be292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INCORRECT PINOUT\nDO NOT MANUFACTURE"
+		(at 135 59 0)
+		(layer "F.Fab")
+		(uuid "9024e2ef-0d50-4d4e-a76a-2caa4f7a0336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INCORRECT PINOUT\nDO NOT MANUFACTURE"
+		(at 135 52.5 0)
+		(layer "F.Fab")
+		(uuid "9952e109-9f02-44c4-bb8b-7d828d6daf3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INCORRECT PINOUT\nDO NOT MANUFACTURE"
+		(at 82 66 0)
+		(layer "F.Fab")
+		(uuid "99c60a8d-fc3b-4be3-8f57-d655f9d6e65f")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "F.Cu")
