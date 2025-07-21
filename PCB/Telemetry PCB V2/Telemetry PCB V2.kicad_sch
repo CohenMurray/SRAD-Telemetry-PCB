@@ -4730,6 +4730,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_20"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_20_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_20_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_3"
 			(power)
 			(pin_numbers
@@ -7725,6 +7826,18 @@
 		(uuid 66c9e81c-9009-42fb-ad4d-1a17cc913564)
 	)
 	(rectangle
+		(start 205.74 132.08)
+		(end 232.41 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e76025d-066f-4578-87bb-b72f80b4df92)
+	)
+	(rectangle
 		(start 30.48 14.605)
 		(end 137.16 127)
 		(stroke
@@ -7879,6 +7992,16 @@
 			)
 		)
 		(uuid "663a32db-3086-40d4-8ca4-c5dc37091365")
+	)
+	(text "Buzzer Header"
+		(exclude_from_sim no)
+		(at 224.028 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68d1f874-e544-4241-ac2a-329d976c6f71")
 	)
 	(text "Status and Power\nLEDs\n"
 		(exclude_from_sim no)
@@ -9372,6 +9495,28 @@
 			)
 		)
 	)
+	(global_label "BUZZ"
+		(shape input)
+		(at 219.71 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32583412-08ad-43fb-918e-79ed859c2b72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.7147 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NSS"
 		(shape input)
 		(at 116.84 109.22 0)
@@ -9698,6 +9843,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUZZ"
+		(shape input)
+		(at 116.84 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cf21d37-4969-4d00-b131-a2fa5069caaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8447 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10337,6 +10504,73 @@
 			(project "Telemetry PCB"
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_20")
+		(lib_id "power:GND")
+		(at 219.71 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "059e3ac3-c289-4467-900d-059fea0c9782")
+		(property "Reference" "#PWR034"
+			(at 219.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77279847-480e-4b75-9c7a-3024676866b8")
+		)
+		(instances
+			(project ""
+				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15036,6 +15270,74 @@
 			(project ""
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 214.63 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace72fbe-65c6-4607-8495-5667d5e86045")
+		(property "Reference" "J6"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9636a122-5065-4a52-9137-7a4f583972a1")
+		)
+		(pin "1"
+			(uuid "ca58177b-2b43-481e-962f-d3b66ace3386")
+		)
+		(instances
+			(project ""
+				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
+					(reference "J6")
 					(unit 1)
 				)
 			)
