@@ -1,0 +1,32 @@
+Drill report for Telemetry PCB V2.kicad_pcb
+Created on 2025-07-24T20:29:02-0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'Telemetry PCB V2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (9 holes)
+    T2  0.400mm  0.0157"  (12 holes)
+    T3  0.500mm  0.0197"  (23 holes)
+    T4  0.600mm  0.0236"  (7 holes)
+    T5  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T6  0.800mm  0.0315"  (7 holes)
+    T7  0.950mm  0.0374"  (3 holes)
+    T8  1.000mm  0.0394"  (14 holes)
+
+    Total plated holes count 79
+
+
+Drill file 'Telemetry PCB V2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+
+    Total unplated holes count 2
