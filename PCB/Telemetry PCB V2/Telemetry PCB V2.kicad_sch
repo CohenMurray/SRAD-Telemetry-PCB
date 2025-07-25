@@ -8208,12 +8208,6 @@
 		(uuid "b6a80d69-3da8-4cd0-bbac-0ddcf5213ab2")
 	)
 	(junction
-		(at 224.79 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b79b6ec5-bc29-4813-8cb9-38ac286e1af7")
-	)
-	(junction
 		(at 102.87 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8491,7 +8485,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 224.79 69.85)
+			(xy 222.25 69.85) (xy 229.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8518,16 +8512,6 @@
 			(type default)
 		)
 		(uuid "3b5286f0-536b-4f5c-8310-cd5f3641d793")
-	)
-	(wire
-		(pts
-			(xy 224.79 69.85) (xy 229.87 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c73fb6d-fdcc-4156-b5ca-8b3808c1365f")
 	)
 	(wire
 		(pts
@@ -11798,72 +11782,6 @@
 			(project ""
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 222.25 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2de1c380-3acb-4546-9cea-e096f8a5e11a")
-		(property "Reference" "TP4"
-			(at 217.678 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.694 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 217.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 222.25 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dd0c8ed-5d3f-448d-b207-2cacae429329")
-		)
-		(instances
-			(project "Telemetry PCB V2"
-				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16223,73 +16141,6 @@
 			(project ""
 				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.79 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d524097b-db04-4c39-8c3e-709f09646ef8")
-		(property "Reference" "TP3"
-			(at 227.33 65.2779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3v"
-			(at 227.33 67.8179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 229.87 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 224.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52654a61-7d1c-43bf-b182-5cbc46c93c51")
-		)
-		(instances
-			(project ""
-				(path "/d3e58202-7594-4bd8-a3d4-cb0300333d9c"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
