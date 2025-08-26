@@ -8047,7 +8047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 105.918 90)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.91 170.688 90)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 50.038 90)
 			(effects
 				(font
@@ -8581,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 184.658 90)
 			(effects
 				(font
@@ -8649,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 93.0148 0)
 			(effects
 				(font
@@ -9190,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 101.6 0)
 			(effects
 				(font
@@ -9435,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 87.9348 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 113.3348 0)
 			(effects
 				(font
@@ -9982,7 +9982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 260.35 43.18 0)
 			(effects
 				(font
@@ -10043,7 +10043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "u.Fl"
 			(at 148.59 60.6424 90)
 			(effects
 				(font
@@ -10052,7 +10052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -10385,7 +10385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 100.838 90)
 			(effects
 				(font
@@ -10519,7 +10519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.81 56.642 90)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.0552 149.86 0)
 			(effects
 				(font
@@ -10791,7 +10791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.068 128.27 90)
 			(effects
 				(font
@@ -11429,7 +11429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 139.3952 0)
 			(effects
 				(font
@@ -11631,7 +11631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.72 174.9552 0)
 			(effects
 				(font
@@ -11764,7 +11764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 35.8648 0)
 			(effects
 				(font
@@ -11834,7 +11834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.2052 135.89 0)
 			(effects
 				(font
@@ -11967,7 +11967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 55.118 90)
 			(effects
 				(font
@@ -12103,7 +12103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 195.58 88.9 0)
 			(effects
 				(font
@@ -12173,7 +12173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.1952 101.6 0)
 			(effects
 				(font
@@ -12372,7 +12372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 58.42 0)
 			(effects
 				(font
@@ -12583,7 +12583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 46.99 0)
 			(effects
 				(font
@@ -12710,7 +12710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "SMA"
 			(at 82.55 54.9031 0)
 			(effects
 				(font
@@ -12719,7 +12719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -12854,7 +12854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 38.608 90)
 			(effects
 				(font
@@ -12923,7 +12923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 186.69 90)
 			(effects
 				(font
@@ -13109,7 +13109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTS526_SM15_SMTR2_LFS:SON4_PTS526 SM15 SMTR2 LFS_CNK"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -13260,7 +13260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS526_SM15_SMTR2_LFS:SON4_PTS526 SM15 SMTR2 LFS_CNK"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -13336,7 +13336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 97.79 90)
 			(effects
 				(font
@@ -13739,7 +13739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 57.658 90)
 			(effects
 				(font
@@ -13873,7 +13873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 148.082 90)
 			(effects
 				(font
@@ -13943,7 +13943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.392 129.54 90)
 			(effects
 				(font
@@ -14258,7 +14258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 93.0148 0)
 			(effects
 				(font
@@ -14327,7 +14327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
 			(at 176.53 40.386 90)
 			(effects
 				(font
@@ -14532,7 +14532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 186.69 33.02 0)
 			(effects
 				(font
