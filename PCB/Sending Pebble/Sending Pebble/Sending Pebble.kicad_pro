@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.25,
-        0.35
+        0.35,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -493,7 +494,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(J4-In)": [
+        "915MHz"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
