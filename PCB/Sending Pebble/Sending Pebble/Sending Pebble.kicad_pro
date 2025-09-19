@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.4,
+          "width": 1.65
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|128150000|67684574|2c3c1fc4-6f78-4b6e-8a18-56362fb0adf8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|136865695|60285993|8e75394c-7ff5-46d9-8e0b-8727747177fc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|132650000|60700000|F.Cu|4|920068c2-184a-4243-811d-e0e95d5fd718|a58781e2-9269-45c0-9a84-041f31facd3a",
+          ""
+        ],
+        [
+          "unconnected_items|141150000|60700000|F.Cu|4|5fa53cae-11ae-48d7-b195-6ce4cf3635fe|20783c33-5971-4a1d-853c-543a4a21a647",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +105,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -105,10 +122,10 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -137,7 +154,7 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -498,6 +515,9 @@
     "netclass_assignments": {
       "Net-(J4-In)": [
         "915MHz"
+      ],
+      "Net-(U3-RF_IN)": [
+        "GPS"
       ]
     },
     "netclass_patterns": []
